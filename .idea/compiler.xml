@@ -9,5 +9,8 @@
         <module name="ULunch" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ULunch" target="16" />
+    </bytecodeTargetLevel>
   </component>
 </project>

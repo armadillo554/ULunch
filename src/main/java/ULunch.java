@@ -2,11 +2,19 @@ import java.util.Scanner;
 
 public class ULunch {
     public static void main(String[] args) {
-        String[][] menu=new String[5][8];
-        menu();
+        String[][] menuComida=new String[5][8];
+        menuComida[0][0]="Nombre";
+        menuComida[0][1]="Precio";
+        menuComida[0][2]="Plato Entrada";
+        menuComida[0][3]="Plato Fondo";
+        menuComida[0][4]="Pan";
+        menuComida[0][5]="Jugo";
+        menuComida[0][6]="Postre";
+        menuComida[0][7]="Casino";
+        menu(menuComida);
     }
 
-    public static void menu(){
+    public static void menu(String[][] menuComida){
         Scanner sn = new Scanner(System.in);
         boolean salir = false;
         int opcion;
@@ -28,6 +36,7 @@ public class ULunch {
                         break;
                     case 2:
                         System.out.println("Has seleccionado la opcion: Entrar como Invitado");
+                        imprimirMenu(menuComida);
                         break;
                     case 3:
                         salir = true;
@@ -44,15 +53,16 @@ public class ULunch {
 
 
 
-    public static void imprimirMenu(String menu){
-        for (int x=0; x < menu.length; x++) {
+    public static void imprimirMenu(String[][] menu) {
+        for (int x = 0; x < menu.length; x++) {
             System.out.print("|");
-            for (int y=0; y < menu[x].length; y++) {
-                System.out.print (menu[x][y]);
-                if (y!=menu[x].length-1) System.out.print("\t");
+            for (int y = 0; y < menu[x].length; y++) {
+                System.out.print(menu[x][y]);
+                if (y != menu[x].length - 1) System.out.print("\t");
+                }
+                System.out.println("|");
             }
-            System.out.println("|");
         }
     }
 
-}
+

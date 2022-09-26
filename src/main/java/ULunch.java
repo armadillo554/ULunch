@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class ULunch {
     public static void main(String[] args) {
-        String[][] menu=new String[5][8];
         menu();
     }
 
@@ -28,6 +27,7 @@ public class ULunch {
                         break;
                     case 2:
                         System.out.println("Has seleccionado la opcion: Entrar como Invitado");
+                        anonimo();
                         break;
                     case 3:
                         salir = true;
@@ -41,10 +41,16 @@ public class ULunch {
             }
         }
     }
-
-
-
-    public static void imprimirMenu(String menu){
+    public static void anonimo(){
+        System.out.println("Estos son los menus del dia ");
+        imprimirMenu(generarMenu());
+    }
+    public static String [][] generarMenu(){
+        String[][] menusDisponibles={{"Menu1", "Casino los Notros", "Valor= 3000$", "Plato de fondo1", "Plato de entrada1", "Postre1", "Jugo1", "Pan"},
+                {"Menu2", "Casino las araucarias", "Valor=2800", "Plato de fondo2", "Plato de entrada2", "Postre2", "Jugo2", "Pan"}};
+        return menusDisponibles;
+    }
+    public static void imprimirMenu(String [][] menu){
         for (int x=0; x < menu.length; x++) {
             System.out.print("|");
             for (int y=0; y < menu[x].length; y++) {

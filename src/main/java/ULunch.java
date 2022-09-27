@@ -45,9 +45,55 @@ public class ULunch {
         System.out.println("Estos son los menus del dia ");
         imprimirMenu(generarMenu());
     }
+//    Metodo en progreso
+//    public static String[][] menusDisponibles(String[][] menusGenerados){
+//        generarMenu();
+//
+//        return
+//    }
     public static String [][] generarMenu(){
-        String[][] menusDisponibles={{"Menu1", "Casino los Notros", "Valor= 3000$", "Plato de fondo1", "Plato de entrada1", "Postre1", "Jugo1", "Pan"},
-                {"Menu2", "Casino las araucarias", "Valor=2800", "Plato de fondo2", "Plato de entrada2", "Postre2", "Jugo2", "Pan"}};
+        String[][] menusDisponibles=new String[1][8];
+//        String[][] menusDisponibles={{"Menu1", "Casino los Notros", "Valor= 3000$", "Plato de fondo1", "Plato de entrada1", "Postre1", "Jugo1", "Pan"},
+//                {"Menu2", "Casino las araucarias", "Valor=2800", "Plato de fondo2", "Plato de entrada2", "Postre2", "Jugo2", "Pan"}};
+        Scanner teclado = new Scanner(System.in);
+        for (int i=0;i<menusDisponibles.length;i++){
+            for (int j=0;j<menusDisponibles[i].length;j++){
+                switch (j){
+                    case 0:
+                        System.out.println("Nombre del menu");
+                        menusDisponibles[i][j]=teclado.next();
+                        break;
+                    case 1:
+                        System.out.println("Casino");
+                        menusDisponibles[i][j]=teclado.next();
+                        break;
+                    case 2:
+                        System.out.println("Valor del menu");
+                        menusDisponibles[i][j]=teclado.next();
+                        break;
+                    case 3:
+                        System.out.println("Plato de entrada");
+                        menusDisponibles[i][j]=teclado.next();
+                        break;
+                    case 4:
+                        System.out.println("Plato de fondo");
+                        menusDisponibles[i][j]=teclado.next();
+                        break;
+                    case 5:
+                        System.out.println("Jugo");
+                        menusDisponibles[i][j]=teclado.next();
+                        break;
+                    case 6:
+                        System.out.println("Postre");
+                        menusDisponibles[i][j]=teclado.next();
+                        break;
+                    case 7:
+                        System.out.println("Pan");
+                        menusDisponibles[i][j]=teclado.next();
+                        break;
+                }
+            }
+        }
         return menusDisponibles;
     }
     public static void imprimirMenu(String [][] menu){

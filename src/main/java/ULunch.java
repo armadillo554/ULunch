@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ULunch {
     public static void main(String[] args) {
-        String[][] menuComida=new String[5][8];
+        String[][] menuComida=generarMenu();
         menuComida[0][0]="Nombre";
         menuComida[0][1]="Precio";
         menuComida[0][2]="Plato Entrada";
@@ -59,10 +59,53 @@ public class ULunch {
             for (int y = 0; y < menu[x].length; y++) {
                 System.out.print(menu[x][y]);
                 if (y != menu[x].length - 1) System.out.print("\t");
-                }
-                System.out.println("|");
             }
+            System.out.println("|");
         }
     }
+
+    public static String[][] generarMenu(){
+        return new String[5][8];
+    }
+
+    public static void pedirAgregarMenu(String[][] menuComida){
+        System.out.println("Por favor ingrese el nombre del menú");
+        String nombre = pedirTeclado();
+
+        System.out.println("Por favor ingrese el Precio");
+        String precio = pedirTeclado();
+
+        System.out.println("Por favor ingrese el Plato de Entrada");
+        String platoEntrada = pedirTeclado();
+
+        System.out.println("Por favor ingrese el Plato de Fondo");
+        String platoFondo = pedirTeclado();
+
+        System.out.println("¿Menú incluye Pan?");
+        String pan = pedirTeclado();
+
+        System.out.println("¿Menú incluye Jugo?");
+        String jugo = pedirTeclado();
+
+        System.out.println("¿Menú incluye Postre?");
+        String postre = pedirTeclado();
+
+        System.out.println("Por favor ingrese el Casino del menú");
+        String casino = pedirTeclado();
+
+
+    }
+
+    public static String pedirTeclado(){
+        Scanner teclado = new Scanner(System.in);
+        String respuesta = "";
+
+        while(respuesta.isEmpty()){
+            respuesta = teclado.nextLine();
+        }
+        return respuesta;
+    }
+
+}
 
 

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dfa19922-7de9-4c55-ae7b-903f070929bf" name="Changes" comment="Commit rama desarrollo2">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ULunch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Datos/Datos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DominioProblema/AdminDatos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DominioProblema/Administrador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DominioProblema/Alumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DominioProblema/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DominioProblema/MenuAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DominioProblema/MenuComida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAPP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ULunch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ULunch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ULunch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ULunch.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/Desarrollo" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Emo1XBrNRwT7XQfEGy7JM2jKca" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dfa19922-7de9-4c55-ae7b-903f070929bf" name="Changes" comment="" />
+      <created>1663209910340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663209910340</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Commit master1">
+      <created>1663210165022</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663210165022</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit Diego1">
+      <created>1663210261544</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663210261544</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Commit Diego2">
+      <created>1664162384829</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664162384829</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Commit Diego3&#10;Metodo generarMenu() reimplementado para que se genere por entradas de teclado">
+      <created>1664249251888</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664249251888</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Commit rama desarrollo0">
+      <created>1666930511236</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666930511236</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Commit rama desarrollo2">
+      <created>1666931300020</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666931300020</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit master1" />
+    <MESSAGE value="Commit Diego1" />
+    <MESSAGE value="Commit Diego2" />
+    <MESSAGE value="Commit Diego3&#10;Metodo generarMenu() reimplementado para que se genere por entradas de teclado" />
+    <MESSAGE value="Commit rama desarrollo0" />
+    <MESSAGE value="Commit rama desarrollo2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit rama desarrollo2" />
+  </component>
+</project>

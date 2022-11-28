@@ -1,5 +1,7 @@
 package DominioProblema;
 
+import Datos.*;
+
 public class MenuAdmin {
 
 	private Administrador admin;

@@ -1,7 +1,5 @@
 package DominioProblema;
 
-import java.util.Scanner;
-
 public class Menu {
 
 	private Alumno alumno;

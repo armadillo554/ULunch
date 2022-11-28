@@ -6,6 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="dfa19922-7de9-4c55-ae7b-903f070929bf" name="Changes" comment="Commit rama desarrollo2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Datos/Datos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/AdminDatos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DominioProblema/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/MenuAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DominioProblema/MenuAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAPP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ULunch.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,14 +50,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/dnava/IdeaProjects/ULunch"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dnava/IdeaProjects/EjemploVentanas-main&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

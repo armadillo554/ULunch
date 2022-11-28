@@ -1,4 +1,6 @@
-package DominioProblema;
+package Datos;
+
+import DominioProblema.*;
 
 public class AdminDatos {
 

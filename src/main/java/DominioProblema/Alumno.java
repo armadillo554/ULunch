@@ -4,26 +4,27 @@ import java.util.Scanner;
 
 public class Alumno {
 
-	private int matricula;
+	private String matricula;
 	private String clave;
 
-	public int pedirMatricula() {
+
+	public String pedirMatricula() {
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Por favor ingrese su Matricula: ");
-		matricula = teclado.nextInt();;
+		matricula = teclado.nextLine();
 
 		return matricula;
 	}
 
 	public String pedirClave() {
-		Scanner teclado = new Scanner(System.in);
+		Scanner t = new Scanner(System.in);
 		System.out.println("Por favor ingrese su Clave: ");
-		clave = teclado.nextLine();
+		clave = t.nextLine();
 
 		return clave;
 	}
 
-	public int getMatricula() {
+		public String getMatricula() {
 		return this.matricula;
 	}
 

@@ -1,4 +1,6 @@
 package DominioProblema;
+import Datos.AdminDatos;
+import java.util.Scanner;
 
 public class Menu {
 
@@ -24,6 +26,7 @@ public class Menu {
 
 				switch (opcion) {
 					case 1:
+						System.out.println("Has seleccionado la opcion: Entrar");
 						ingresar();
 						break;
 					case 2:

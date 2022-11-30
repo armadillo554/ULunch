@@ -1,7 +1,7 @@
 package Principal;
 
+import Datos.AdminDatos;
 import DominioProblema.Menu;
-
 import GUIs.VentanaAppUsuario;
 
 import java.util.Scanner;
@@ -9,9 +9,22 @@ import java.util.Scanner;
 public class PrincipalAPP {
 
 	public static void main(String[] args) {
-		VentanaAppUsuario gui = new VentanaAppUsuario();
-		gui.setVisible(true);
-	}
+		AdminDatos datos = new AdminDatos();
+		if(datos.buscarMatricula("20584002819")){
+			System.out.println("Encontrada");
+		}else{
+			System.out.println("No Encontrada");
+
+		}
+	//	if (datos.buscarCoincidenciasAdmin("admin1", "12345")) {
+	//		System.out.println("Inicio sesión con éxito");
+	//	} else {
+	//		System.out.println("Inicio de sesión fallido, intente nuevamente");
+
+	//			VentanaAppUsuario gui = new VentanaAppUsuario();
+	//			gui.setVisible(true);
+		}
+
 	public static void menu(){
 		Scanner sn = new Scanner(System.in);
 		boolean salir = false;

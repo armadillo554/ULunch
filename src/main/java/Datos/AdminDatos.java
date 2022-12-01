@@ -134,14 +134,20 @@ public class AdminDatos {
 		return encontrado;
 	}
 
+	public void registrarAlumno(String matricula, String clave) {
+		try {
+			FileWriter escribir = new FileWriter(archivoAlumnos, true);
 
+				escribir.write(matricula+";"+clave);
+				escribir.write("\n");
 
-
-	public void registrarAlumno(String  matricula, String clave) {
-		JSONObject alumno = new JSONObject();
-		alumno.put("matricula",matricula);
-		alumno.put("clave",clave);
+			escribir.close();
+		}
+		catch (Exception e) {
+			System.out.println("Error al escribir");
+		}
 	}
+
 
 	public void editarMenu() {
 

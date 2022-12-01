@@ -10,10 +10,11 @@ public class PrincipalAPP {
 
 	public static void main(String[] args) {
 		AdminDatos datos = new AdminDatos();
-		if(datos.buscarMatricula("20584002819")){
-			System.out.println("Encontrada");
-		}else{
-			System.out.println("No Encontrada");
+		datos.registrarAlumno("20652598786","12345");
+	//	if(datos.registrarAlumno("20584002819","123456")){
+	//		System.out.println("Encontrada");
+	//	}else{
+	//		System.out.println("No Encontrada");
 
 		}
 	//	if (datos.buscarCoincidenciasAdmin("admin1", "12345")) {
@@ -23,7 +24,7 @@ public class PrincipalAPP {
 
 	//			VentanaAppUsuario gui = new VentanaAppUsuario();
 	//			gui.setVisible(true);
-		}
+	//	}
 
 	public static void menu(){
 		Scanner sn = new Scanner(System.in);

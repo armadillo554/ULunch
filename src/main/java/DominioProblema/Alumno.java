@@ -2,25 +2,36 @@ package DominioProblema;
 
 public class Alumno {
 
-	private int matricula;
-	private String clave;
+	private String matricula;
+	private String contrasena;
 
-	public int pedirMatricula() {
-		// TODO - implement Alumno.pedirMatricula
-		throw new UnsupportedOperationException();
-	}
-
-	public String pedirClave() {
-		// TODO - implement Alumno.pedirClave
-		throw new UnsupportedOperationException();
-	}
-
-	public int getMatricula() {
+	public String getMatricula() {
 		return this.matricula;
 	}
 
-	public String getClave() {
-		return this.clave;
+	/**
+	 * 
+	 * @param matricula
+	 */
+	public void setMatricula(String matricula) {
+		this.matricula = matricula;
+	}
+
+	public String getContrasena() {
+		return this.contrasena;
+	}
+
+	/**
+	 * 
+	 * @param contrasena
+	 */
+	public void setContrasena(String contrasena) {
+		this.contrasena = contrasena;
+	}
+
+	public Alumno() {
+		// TODO - implement Alumno.Alumno
+		throw new UnsupportedOperationException();
 	}
 
 }

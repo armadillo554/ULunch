@@ -48,7 +48,7 @@ public class AdminDatos {
 	 * 
 	 * @param menu
 	 */
-	public void agregarMenu(MenuComida menu) {
+	public void agregarMenu(Menu menu) {
 		// TODO - implement AdminDatos.agregarMenu
 		throw new UnsupportedOperationException();
 	}

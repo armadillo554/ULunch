@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f29002da-2855-4a6f-b14b-3cc053146a06" name="Changes" comment="Commit rama desarrollo3 primeras ventanas generadas" />
+    <list default="true" id="f29002da-2855-4a6f-b14b-3cc053146a06" name="Changes" comment="Commit rama desarrollo3 primeras ventanas generadas">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Datos/AdminDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Datos/AdminDatos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/Administrador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DominioProblema/Alumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DominioProblema/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/MenuAdmin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/MenuComida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUIs/VentanaAnonimoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUIs/VentanaAnonimoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUIs/VentanaAppAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUIs/VentanaAppAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUIs/VentanaAppUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUIs/VentanaAppUsuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUIs/VentanaIniciarSesionApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUIs/VentanaIniciarSesionApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAPP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Datos/AdminDatos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Datos/AdminDatos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DominioProblema/Administrador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DominioProblema/Alumno.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DominioProblema/Alumno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DominioProblema/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DominioProblema/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DominioProblema/MenuAdmin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DominioProblema/MenuComida.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUIs/VentanaAnonimoApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUIs/VentanaAnonimoApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUIs/VentanaAppAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUIs/VentanaAppAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUIs/VentanaAppUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUIs/VentanaAppUsuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUIs/VentanaIniciarSesionApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUIs/VentanaIniciarSesionApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Principal/PrincipalAPP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Principal/PrincipalAPP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Principal/PrincipalAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Principal/PrincipalAdmin.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +43,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="Desarrollo" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="Desarrollo" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -46,13 +75,21 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dnava/IdeaProjects/EjemploVentanas-main&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dnava/IdeaProjects/ULunch/src/main/java&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dnava\IdeaProjects\ULunch\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dnava\IdeaProjects\ULunch\src\main\java" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dfa19922-7de9-4c55-ae7b-903f070929bf" name="Changes" comment="" />
+      <changelist id="f29002da-2855-4a6f-b14b-3cc053146a06" name="Changes" comment="Commit rama desarrollo3 primeras ventanas generadas" />
       <created>1663209910340</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -100,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666931300020</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit diego sincronizacion rama desarrollo">
+      <created>1669605954733</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669605954733</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +165,7 @@
     <MESSAGE value="Commit Diego3&#10;Metodo generarMenu() reimplementado para que se genere por entradas de teclado" />
     <MESSAGE value="Commit rama desarrollo0" />
     <MESSAGE value="Commit rama desarrollo2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit rama desarrollo2" />
+    <MESSAGE value="commit diego sincronizacion rama desarrollo" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit diego sincronizacion rama desarrollo" />
   </component>
 </project>

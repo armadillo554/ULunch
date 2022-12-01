@@ -11,6 +11,7 @@ public class VentanaAppUsuario extends Ventana implements ActionListener {
     public VentanaAppUsuario(){
         iniciarSesion = this.generarBoton("Iniciar Sesión", 115, 400, 120, 30);
         anonimo = this.generarBoton("Anónimo", 115, 450, 120, 30);
+
         iniciarSesion.addActionListener(this);
         anonimo.addActionListener(this);
     }

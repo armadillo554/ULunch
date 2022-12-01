@@ -1,37 +1,35 @@
 package DominioProblema;
 
+import java.util.Scanner;
+
 public class Alumno {
 
 	private String matricula;
-	private String contrasena;
+	private String clave;
 
-	public String getMatricula() {
+
+	public String pedirMatricula() {
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Por favor ingrese su Matricula: ");
+		matricula = teclado.nextLine();
+
+		return matricula;
+	}
+
+	public String pedirClave() {
+		Scanner t = new Scanner(System.in);
+		System.out.println("Por favor ingrese su Clave: ");
+		clave = t.nextLine();
+
+		return clave;
+	}
+
+		public String getMatricula() {
 		return this.matricula;
 	}
 
-	/**
-	 * 
-	 * @param matricula
-	 */
-	public void setMatricula(String matricula) {
-		this.matricula = matricula;
-	}
-
-	public String getContrasena() {
-		return this.contrasena;
-	}
-
-	/**
-	 * 
-	 * @param contrasena
-	 */
-	public void setContrasena(String contrasena) {
-		this.contrasena = contrasena;
-	}
-
-	public Alumno() {
-		// TODO - implement Alumno.Alumno
-		throw new UnsupportedOperationException();
+	public String getClave() {
+		return this.clave;
 	}
 
 }

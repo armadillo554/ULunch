@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfa19922-7de9-4c55-ae7b-903f070929bf" name="Changes" comment="Commit rama diego desarrollo de ventanas varias">
-    <list default="true" id="f29002da-2855-4a6f-b14b-3cc053146a06" name="Changes" comment="Commit rama desarrollo3 primeras ventanas generadas">
-    <list default="true" id="dfa19922-7de9-4c55-ae7b-903f070929bf" name="Changes" comment="Commit Pablo 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Datos/AdminDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Datos/AdminDatos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Datos/AdminDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Datos/AdminDatos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/Administrador.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DominioProblema/Alumno.java" afterDir="false" />
@@ -33,8 +30,6 @@
       <change beforePath="$PROJECT_DIR$/target/classes/GUIs/VentanaIniciarSesionApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUIs/VentanaIniciarSesionApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Principal/PrincipalAPP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Principal/PrincipalAPP.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Principal/PrincipalAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Principal/PrincipalAdmin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Datos/AdminDatos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Datos/AdminDatos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Principal/PrincipalAPP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Principal/PrincipalAPP.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,14 +78,9 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dnava/IdeaProjects/ULunch/src/main/java&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EjemploVentanas-main" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dnava\IdeaProjects\ULunch\src\main\java" />
@@ -98,9 +88,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\dnava\IdeaProjects\ULunch\src\main\java" />
     </key>
-  </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EjemploVentanas-main" />
   </component>
   <component name="RunManager">
     <configuration name="PrincipalAPP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -173,14 +160,6 @@
       <option name="project" value="LOCAL" />
       <updated>1666931300020</updated>
     </task>
-    <task id="LOCAL-00007" summary="commit diego sincronizacion rama desarrollo">
-      <created>1669605954733</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1669605954733</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
     <task id="LOCAL-00007" summary="Commit Pablo 7">
       <created>1669848436983</created>
       <option name="number" value="00007" />
@@ -210,7 +189,6 @@
     <MESSAGE value="Commit rama desarrollo0" />
     <MESSAGE value="Commit rama desarrollo2" />
     <MESSAGE value="commit diego sincronizacion rama desarrollo" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit diego sincronizacion rama desarrollo" />
     <MESSAGE value="Commit Pablo 7" />
     <option name="LAST_COMMIT_MESSAGE" value="Commit Pablo 7" />
   </component>

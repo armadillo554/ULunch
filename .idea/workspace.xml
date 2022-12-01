@@ -4,32 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dfa19922-7de9-4c55-ae7b-903f070929bf" name="Changes" comment="Commit rama diego desarrollo de ventanas varias">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Datos/AdminDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Datos/AdminDatos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/Administrador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DominioProblema/Alumno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DominioProblema/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/MenuAdmin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/MenuComida.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUIs/VentanaAnonimoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUIs/VentanaAnonimoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUIs/VentanaAppAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUIs/VentanaAppAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUIs/VentanaAppUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUIs/VentanaAppUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GUIs/VentanaIniciarSesionApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUIs/VentanaIniciarSesionApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAPP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAdmin.java" afterDir="false" />
+    <list default="true" id="dfa19922-7de9-4c55-ae7b-903f070929bf" name="Changes" comment="Commit rama diego desarrollo modificacion minima2">
+      <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/Admin.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Datos/AdminDatos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Datos/AdminDatos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DominioProblema/Administrador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DominioProblema/Alumno.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DominioProblema/Alumno.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DominioProblema/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DominioProblema/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DominioProblema/MenuAdmin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DominioProblema/MenuComida.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUIs/VentanaAnonimoApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUIs/VentanaAnonimoApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUIs/VentanaAppAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUIs/VentanaAppAdmin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUIs/VentanaAppUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUIs/VentanaAppUsuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/GUIs/VentanaIniciarSesionApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUIs/VentanaIniciarSesionApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Principal/PrincipalAPP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Principal/PrincipalAPP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Principal/PrincipalAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Principal/PrincipalAdmin.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669848436983</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit rama diego desarrollo modificacion minima2">
+      <created>1669861231768</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669861231768</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,7 +174,8 @@
     <MESSAGE value="Commit rama desarrollo2" />
     <MESSAGE value="commit diego sincronizacion rama desarrollo" />
     <MESSAGE value="Commit Pablo 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit Pablo 7" />
+    <MESSAGE value="Commit rama diego desarrollo modificacion minima2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit rama diego desarrollo modificacion minima2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

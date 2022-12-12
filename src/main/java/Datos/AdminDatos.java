@@ -1,5 +1,5 @@
 package Datos;
-import DominioProblema.MenuComida;
+import DominioProblema.Menu;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -12,25 +12,11 @@ public class AdminDatos {
 
 	private String archivoAlumnos = "C:\\Users\\Pablo Perez\\Desktop\\Programacion\\Proyecto\\Usuarios.txt";
 	private String archivoAdmin = "C:\\Users\\Pablo Perez\\Desktop\\Programacion\\Proyecto\\Administradores.txt";
-	private String archivoMatriculas="C:\\Users\\Pablo Perez\\Desktop\\Programacion\\Proyecto\\Matriculas.txt";
+	private String archivoMatriculas = "C:\\Users\\Pablo Perez\\Desktop\\Programacion\\Proyecto\\Matriculas.txt";
+	private String archivoListaComida = "C:\\Users\\Pablo Perez\\Desktop\\Programacion\\Proyecto\\ListaComida.txt";
 
 	public void imprimirMenus() {
-		JSONParser jsonParser = new JSONParser();
 
-		try(FileReader reader = new FileReader("menuComida.json")){
-			Object obj = jsonParser.parse(reader);
-
-			JSONArray comidaLista = (JSONArray) obj;
-
-		}catch(FileNotFoundException e){
-			e.printStackTrace();
-		}
-		catch(IOException e){
-			e.printStackTrace();
-		}
-		catch(ParseException e){
-			e.printStackTrace();
-		}
 	}
 
 
@@ -154,8 +140,18 @@ public class AdminDatos {
 	}
 
 
-	public void agregarMenu(MenuComida menu) {
+	public void agregarMenu(Menu lista) {
+		try {
+			FileWriter escribir = new FileWriter(archivoListaComida, true);
 
+			escribir.write(lista.getNombre()+";"+lista.getTipo()+";"+lista.getPrecio()+";"+lista.getPlatoEntrada()+";"+lista.getPlatoFondo()+";"+lista.getPostre()+";"+ lista.getJugo()+";"+lista.getPan()+";"+lista.getCasino());
+			escribir.write("\n");
+
+			escribir.close();
+		}
+		catch (Exception e) {
+			System.out.println("Error al escribir");
+		}
 	}
 
 	public void eliminarMenu() {

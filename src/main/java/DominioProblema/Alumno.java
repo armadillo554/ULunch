@@ -24,7 +24,7 @@ public class Alumno {
 		return clave;
 	}
 
-		public String getMatricula() {
+	public String getMatricula() {
 		return this.matricula;
 	}
 

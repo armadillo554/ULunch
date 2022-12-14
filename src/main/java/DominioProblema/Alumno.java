@@ -30,7 +30,7 @@ public class Alumno {
 	}
 
 	/**
-	 * 
+	 *
 	 * @param matricula
 	 */
 	public void setMatricula(String matricula) {
@@ -42,7 +42,7 @@ public class Alumno {
 	}
 
 	/**
-	 * 
+	 *
 	 * @param contrasena
 	 */
 	public void setContrasena(String contrasena) {

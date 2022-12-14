@@ -1,10 +1,5 @@
 package Datos;
 import DominioProblema.MenuComida;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
-
 import java.io.*;
 import java.util.Scanner;
 
@@ -14,24 +9,6 @@ public class AdminDatos {
 	private String archivoAdmin = "C:\\Users\\Pablo Perez\\Desktop\\Programacion\\Proyecto\\Administradores.txt";
 	private String archivoMatriculas="C:\\Users\\Pablo Perez\\Desktop\\Programacion\\Proyecto\\Matriculas.txt";
 
-	public void imprimirMenus() {
-		JSONParser jsonParser = new JSONParser();
-
-		try(FileReader reader = new FileReader("menuComida.json")){
-			Object obj = jsonParser.parse(reader);
-
-			JSONArray comidaLista = (JSONArray) obj;
-
-		}catch(FileNotFoundException e){
-			e.printStackTrace();
-		}
-		catch(IOException e){
-			e.printStackTrace();
-		}
-		catch(ParseException e){
-			e.printStackTrace();
-		}
-	}
 
 
 	public boolean buscarCoincidencias(String  matricula, String clave) {

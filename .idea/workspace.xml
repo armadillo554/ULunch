@@ -4,6 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="0d41b30f-24de-4a34-8ed6-565433625f42" name="Changes" comment="Commit Pablo agregarMenu">
+      <change beforePath="$PROJECT_DIR$/target/classes/Datos/AdminDatos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Datos/AdminDatos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DominioProblema/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DominioProblema/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Principal/PrincipalAPP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Principal/PrincipalAPP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Principal/PrincipalAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Principal/PrincipalAdmin.class" afterDir="false" />
+    <list default="true" id="dfa19922-7de9-4c55-ae7b-903f070929bf" name="Changes" comment="Commit Pablo 7">
+    <list default="true" id="0d41b30f-24de-4a34-8ed6-565433625f42" name="Changes" comment="">
+    <list default="true" id="dfa19922-7de9-4c55-ae7b-903f070929bf" name="Changes" comment="Commit Pablo 7">
+    <list default="true" id="0d41b30f-24de-4a34-8ed6-565433625f42" name="Changes" comment="">
+    <list default="true" id="dfa19922-7de9-4c55-ae7b-903f070929bf" name="Changes" comment="Commit Pablo 7">
+    <list default="true" id="0d41b30f-24de-4a34-8ed6-565433625f42" name="Changes" comment="">
     <list default="true" id="dfa19922-7de9-4c55-ae7b-903f070929bf" name="Changes" comment="Commit Pablo 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Datos/AdminDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Datos/AdminDatos.java" afterDir="false" />
@@ -136,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669848436983</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit Pablo agregarMenu">
+      <created>1670826080027</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670826080028</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,7 +176,8 @@
     <MESSAGE value="Commit rama desarrollo0" />
     <MESSAGE value="Commit rama desarrollo2" />
     <MESSAGE value="Commit Pablo 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit Pablo 7" />
+    <MESSAGE value="Commit Pablo agregarMenu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit Pablo agregarMenu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

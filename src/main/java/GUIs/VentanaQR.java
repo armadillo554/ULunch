@@ -7,6 +7,7 @@ import java.awt.event.ActionListener;
 
 public class VentanaQR extends Ventana implements ActionListener {
     private JButton volver;
+    private JLabel etiquetaMenuComprado;
 
     public VentanaQR(){
         volver = this.generarBoton("Volver", 265, 610, 67, 33, Font.DIALOG, 10);

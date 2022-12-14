@@ -1,8 +1,12 @@
 package GUIs;
 
+import DominioProblema.Admin;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
+import static javax.swing.JOptionPane.showMessageDialog;
 
 public class VentanaAppAdmin extends Ventana implements ActionListener {
     private JButton ingresar;
@@ -25,9 +29,13 @@ public class VentanaAppAdmin extends Ventana implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         this.dispose();
         if (e.getSource()==ingresar){
-
-
-            new VentanaOpcionesAdmin();
+            Admin admin = new Admin(usuario.getText(),contrasena.getText());
+            if (admin.validarDatos()){
+                new VentanaOpcionesAdmin();
+            }else {
+                new VentanaAppAdmin();
+                showMessageDialog(null, "Datos incorrectos");
+            }
         }
     }
 }

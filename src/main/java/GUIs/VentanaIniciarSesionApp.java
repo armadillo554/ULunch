@@ -1,9 +1,13 @@
 package GUIs;
 
+import DominioProblema.Alumno;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
+import static javax.swing.JOptionPane.showMessageDialog;
 
 public class VentanaIniciarSesionApp extends Ventana implements ActionListener {
     private JTextField matricula;
@@ -32,8 +36,13 @@ public class VentanaIniciarSesionApp extends Ventana implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         this.dispose();
         if (e.getSource()==ingresar){   //Verificar matricula ingresada valida, contraseña valida y que ambas corresponden entre si
-
-            new VentanaMenusDelDia();
+            Alumno alumno = new Alumno(matricula.getText(), contrasena.getText());
+            if (alumno.validarDatos()){
+                new VentanaMenusDelDia();
+            }else {
+                new VentanaIniciarSesionApp();
+                showMessageDialog(null, "Datos incorrectos");
+            }
         }else if (e.getSource()==registrarse) {
             new VentanaRegistrarUsuario();
             }else{

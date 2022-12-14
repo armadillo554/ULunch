@@ -69,7 +69,7 @@ public class AdminDatos {
 		}
 		catch(Exception e)
 		{
-			System.out.println("Error");
+			existe=false;
 		}
 		return existe;
 	}
@@ -91,7 +91,7 @@ public class AdminDatos {
 
 		} catch (IOException e) {
 
-			System.out.println("Error Inesperado, intente nuevamente");
+			encontrado=false;
 		}
 		return encontrado;
 	}
@@ -111,7 +111,7 @@ public class AdminDatos {
 
 		} catch (IOException e) {
 
-			System.out.println("Error Inesperado, intente nuevamente");
+			encontrado=false;
 		}
 		return encontrado;
 	}
@@ -153,10 +153,4 @@ public class AdminDatos {
 	public void eliminarMenu() {
 
 	}
-
-
-	//public String[] buscarMenu(int menu) {
-
-	//}
-
 }

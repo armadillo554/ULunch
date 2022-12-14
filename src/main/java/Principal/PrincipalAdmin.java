@@ -1,7 +1,5 @@
 package Principal;
 
-import Datos.AdminDatos;
-import DominioProblema.Menu;
 import GUIs.VentanaAppAdmin;
 
 public class PrincipalAdmin {

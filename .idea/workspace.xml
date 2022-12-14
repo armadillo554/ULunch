@@ -5,26 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d41b30f-24de-4a34-8ed6-565433625f42" name="Changes" comment="">
-    <list default="true" id="0d41b30f-24de-4a34-8ed6-565433625f42" name="Changes" comment="Commit Pablo agregarMenu">
-      <change beforePath="$PROJECT_DIR$/target/classes/Datos/AdminDatos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Datos/AdminDatos.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DominioProblema/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DominioProblema/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Principal/PrincipalAPP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Principal/PrincipalAPP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Principal/PrincipalAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Principal/PrincipalAdmin.class" afterDir="false" />
-    <list default="true" id="dfa19922-7de9-4c55-ae7b-903f070929bf" name="Changes" comment="Commit Pablo 7">
-    <list default="true" id="0d41b30f-24de-4a34-8ed6-565433625f42" name="Changes" comment="">
-    <list default="true" id="dfa19922-7de9-4c55-ae7b-903f070929bf" name="Changes" comment="Commit Pablo 7">
-    <list default="true" id="0d41b30f-24de-4a34-8ed6-565433625f42" name="Changes" comment="">
-    <list default="true" id="dfa19922-7de9-4c55-ae7b-903f070929bf" name="Changes" comment="Commit Pablo 7">
-    <list default="true" id="0d41b30f-24de-4a34-8ed6-565433625f42" name="Changes" comment="">
-    <list default="true" id="dfa19922-7de9-4c55-ae7b-903f070929bf" name="Changes" comment="Commit Pablo 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Datos/AdminDatos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Datos/AdminDatos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DominioProblema/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DominioProblema/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/Administrador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DominioProblema/Alumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUIs/VentanaBorrarMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUIs/VentanaBorrarMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUIs/VentanaIniciarSesionApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUIs/VentanaIniciarSesionApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GUIs/VentanaRegistrarUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GUIs/VentanaRegistrarUsuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAPP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAdmin.java" afterDir="false" />
-    <list default="true" id="dfa19922-7de9-4c55-ae7b-903f070929bf" name="Changes" comment="Commit rama diego desarrollo modificacion minima2">
-      <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/Admin.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Datos/AdminDatos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Datos/AdminDatos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DominioProblema/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DominioProblema/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DominioProblema/Alumno.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DominioProblema/Alumno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUIs/Ventana.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUIs/Ventana.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUIs/VentanaAppAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUIs/VentanaAppAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUIs/VentanaBorrarMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUIs/VentanaBorrarMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUIs/VentanaIniciarSesionApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUIs/VentanaIniciarSesionApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/GUIs/VentanaRegistrarUsuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/GUIs/VentanaRegistrarUsuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Principal/PrincipalAPP.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Principal/PrincipalAPP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Principal/PrincipalAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Principal/PrincipalAdmin.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     </option>
   </component>
   <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="Desarrollo" />
+    <option name="BRANCH" value="Diego" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -84,8 +84,7 @@
       <recent name="C:\Users\dnava\IdeaProjects\ULunch\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
-  <component name="RunManager" selected="Application.PrincipalAdmin">
+  <component name="RunManager" selected="Application.PrincipalAPP">
     <configuration name="PrincipalAPP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Principal.PrincipalAPP" />
       <module name="ULunch" />
@@ -114,8 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrincipalAdmin" />
         <item itemvalue="Application.PrincipalAPP" />
+        <item itemvalue="Application.PrincipalAdmin" />
       </list>
     </recent_temporary>
   </component>
@@ -177,14 +176,6 @@
       <option name="project" value="LOCAL" />
       <updated>1669848436983</updated>
     </task>
-    <task id="LOCAL-00008" summary="Commit Pablo agregarMenu">
-      <created>1670826080027</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1670826080028</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <task id="LOCAL-00008" summary="Commit rama diego desarrollo modificacion minima2">
       <created>1669861231768</created>
       <option name="number" value="00008" />
@@ -216,19 +207,7 @@
     <MESSAGE value="commit diego sincronizacion rama desarrollo" />
     <MESSAGE value="Commit Pablo 7" />
     <MESSAGE value="Commit rama diego desarrollo modificacion minima2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit rama diego desarrollo modificacion minima2" />
     <MESSAGE value="Commit Pablo agregarMenu" />
     <option name="LAST_COMMIT_MESSAGE" value="Commit Pablo agregarMenu" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Datos/AdminDatos.java</url>
-          <line>95</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

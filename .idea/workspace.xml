@@ -10,6 +10,9 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DominioProblema/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAPP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Principal/PrincipalAdmin.java" afterDir="false" />
+    <list default="true" id="dfa19922-7de9-4c55-ae7b-903f070929bf" name="Changes" comment="Commit rama diego desarrollo modificacion minima2">
+      <change beforePath="$PROJECT_DIR$/src/main/java/DominioProblema/Admin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Datos/AdminDatos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Datos/AdminDatos.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +72,7 @@
       <recent name="C:\Users\dnava\IdeaProjects\ULunch\src\main\java" />
     </key>
   </component>
+  <component name="RunManager">
   <component name="RunManager" selected="Application.PrincipalAdmin">
     <configuration name="PrincipalAPP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Principal.PrincipalAPP" />
@@ -161,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669848436983</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit rama diego desarrollo modificacion minima2">
+      <created>1669861231768</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669861231768</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,7 +195,8 @@
     <MESSAGE value="Commit rama desarrollo2" />
     <MESSAGE value="commit diego sincronizacion rama desarrollo" />
     <MESSAGE value="Commit Pablo 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit Pablo 7" />
+    <MESSAGE value="Commit rama diego desarrollo modificacion minima2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit rama diego desarrollo modificacion minima2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
